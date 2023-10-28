@@ -81,4 +81,17 @@ span a {
 	text-align: center;
 }
 
- 
+table {
+	border-collapse: collapse;
+	width: 50%; /* Set the table width as desired */
+}
+
+table, th, td {
+	border: 1px solid rgb(20, 49, 154);
+}
+
+th, td {
+	text-align: center;
+	padding: 5px; /* Adjust padding for cell spacing */
+	font-size: 12px; /* Adjust the font size as needed */
+}
